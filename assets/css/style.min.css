@@ -95,10 +95,9 @@ body{
     opacity: 0.6;
 }
 .header_btn1{
-    width: 132px;
-    height: 39px;
+    padding: 10px 20px;
     cursor: pointer;
-    border: none;
+    border: 1px solid transparent;
     background: none;
     font-family: 'Poppins';
     font-weight: 500;
@@ -117,11 +116,10 @@ body{
 }
 /* вид кнопки */
 .header_btn2{
-    width: 132px;
-    height: 39px;
+    padding: 10px 20px;
     cursor: pointer;
     background: rgba(98, 2, 238, 0.0001);
-    border: none;
+    border: 1px solid transparent;
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 13.4237px;
@@ -189,16 +187,15 @@ body{
 }
 .main_btn{
     background: url('../img/photos/bth.png') no-repeat center center / cover;
-    width: 308px;
-    height: 90px;
+    padding: 20px 40px 20px 40px;
     cursor: pointer;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-weight: 700;
     font-size: 24px;
     line-height: 27px;
     color: #FFFFFF;
     border-radius: 62px;
-    border: none;
+    border: 1px solid transparent;
     transition: 0.5s;
 }
 .main_btn:hover{
@@ -392,13 +389,10 @@ body{
     display: none;
 }
 .become_card_btn{
-    font-weight: 700;
-    font-size: 24px;
+    padding: 20px 90px;
     line-height: 27px;
     color: #FFFFFF;
-    width: 308px;
-    height: 79px;
-    border: none;
+    border: 1px solid transparent;
     cursor: pointer;
     background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
     border-radius: 62px;
@@ -412,7 +406,7 @@ body{
     font-size: 18px;
     line-height: 100%;
     color: #567796;
-    margin-bottom: 70px;
+    margin-top: 70px;
 }
 .become_card:hover{
     transform: scale(1.1);
